@@ -1,0 +1,23 @@
+.mina{
+    width: 30%; 
+    margin: auto; 
+    background-color: rgb(149, 153, 153); 
+    font-size: 34px;
+    color: white;
+   }
+   .mina li{
+       list-style-type: none;
+       line-height: 60px;
+       
+   }
+   #dash{
+     color: white; 
+     
+   }
+   #dash:hover{
+      
+       background-color: blue;
+   }
+   #chart:hover{
+    background-color: rgb(192, 190, 190);
+   }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <style>
+        tr,th,td{
+            border: 1px solid black;
+
+        padding: 10px 20px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        .green{
+            border: none;
+            background-color: green;
+            border-radius: 2px;
+            padding: 6px;
+            color: white;
+        }
+        .blue{
+            border: none; 
+            background-color: blue; 
+            color: white; 
+            border-radius: 2px;
+            padding: 6px; 
+        }
+        .red{
+            border: none; 
+            background-color: brown; 
+            color: white; 
+            border-radius: 2px;
+            padding: 6px;    
+        }
+        
+    </style>
+    
+    
+</head>
+<body>
+ <table style="border: 2px solid black;">
+    <thead>
+        <th>Account Loced</th>
+        <th>Account Expired</th>
+        <th>Actions</th>
+    </thead>
+    <tbody>
+        <tr class="awal">
+            <td >false</td>
+            <td>false</td>
+            <td><i class="fa fa-eye green" ></i><i class="fa fa-trash blue"></i> <i class="fab fa-facebook red"></i></td>
+        </tr>
+        <tr>
+            <td>false</td>
+            <td>false</td>
+            <td><i class="fa fa-eye green"></i><i class="fa fa-trash blue"></i> <i class="fab fa-facebook red"></i></td>
+        </tr>
+        <tr class="akhar">
+            <td >false</td>
+            <td>false</td>
+            <td><i class="fa fa-eye green"></i><i class="fa fa-trash blue"></i> <i class="fab fa-facebook red"></i></td>
+        </tr>
+    </tbody>
+ </table>   
+</body>
+</html>
